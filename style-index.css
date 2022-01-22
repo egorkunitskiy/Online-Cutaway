@@ -1,0 +1,104 @@
+
+body {
+    background-image: url(https://media.giphy.com/media/l4Jz07eHb4KmXJAqs/giphy.gif);
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 85%;
+    max-width: 1200px;
+    background: rgba(49, 49, 49, 0.5);
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+
+.top-panel {
+    width: 85%;
+    max-width: 1200px;
+    background: rgba(0, 0, 0, 0.705);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.top-panel div {
+    padding: 15px;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.top-panel div:hover {
+    background: rgba(150, 150, 150, 0.5);
+}
+
+.info {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1200px) {
+    .info {
+        align-content: center;
+        text-align: center;
+        display: block;
+    }
+}
+
+.info div {
+    margin: 30px;
+    position: relative;
+}
+
+.info #text h3 {
+    font-style: italic;
+    font-weight: 300;
+}
+
+#avatar img {
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 14px rgba(150, 150, 150, 0.5);
+}
+
+.social {
+    width: 85%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.social div {
+    padding: 10px;
+    margin: 5px;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border: white solid;
+    border-radius: 40px;
+    background: rgba(49, 49, 49, 0.5);
+    margin-bottom: 100px;
+
+}
+
+.social div:hover {
+    background: rgba(0, 0, 0, 0.705);
+}
+
+#signature {
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+}
